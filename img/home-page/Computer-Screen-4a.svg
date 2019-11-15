@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="500px" viewBox="0 0 720 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Computer-Screen-4a</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Computer-Screen-4a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Frame" stroke="#B0B0B0" fill="#DCDCDC" x="167.5" y="12.5" width="384.992187" height="478.675781" rx="6"></rect>
+        <path d="M182.5,35.9990065 L182.5,467.701091 C182.5,470.735559 184.960971,473.200098 187.993179,473.200098 L532.041206,473.200098 C535.072927,473.200098 537.534385,470.737118 537.534385,467.701091 L537.534385,35.9990065 C537.534385,32.9645387 535.073414,30.5 532.041206,30.5 L187.993179,30.5 C184.961458,30.5 182.5,32.96298 182.5,35.9990065 Z" id="Screen" stroke="#B0B0B0" fill="#FFFFFF"></path>
+        <path d="M210,127.993229 C210,125.235545 212.242291,123 215.003251,123 L504.996749,123 C507.759968,123 510,125.239118 510,127.993229 L510,440.006771 C510,442.764455 507.757709,445 504.996749,445 L215.003251,445 C212.240032,445 210,442.760882 210,440.006771 L210,127.993229 Z" id="Rectangle-2" stroke="#007F80" fill="#00FFFF"></path>
+        <path d="M210,50.0000319 C210,47.2385905 212.242291,45 215.003251,45 L504.996749,45 C507.759968,45 510,47.245531 510,50.0000319 L510,89.9999681 C510,92.7614095 507.757709,95 504.996749,95 L215.003251,95 C212.240032,95 210,92.754469 210,89.9999681 L210,50.0000319 Z" id="Rectangle-1" fill="#CC0000"></path>
+        <text id="Text-DataFormsJS" font-family="Arial-BoldMT, Arial" font-size="36" font-weight="bold" fill="#FFFFFF">
+            <tspan x="234" y="83">#DataFormsJS</tspan>
+        </text>
+        <circle id="Oval-1" stroke="#7F8000" stroke-width="0.5" fill="#FFFF00" cx="302.5" cy="209.5" r="2.5"></circle>
+        <circle id="Oval-2" stroke="#004080" stroke-width="0.5" fill="#007FFF" cx="420.5" cy="284.5" r="2.5"></circle>
+        <circle id="Oval-3" stroke="#800040" stroke-width="0.5" fill="#FF007F" cx="302.5" cy="359.5" r="2.5"></circle>
+    </g>
+</svg>
