@@ -4,8 +4,9 @@
 
 This repository contains document images and other files for DataFormsJS. Images are located here to keep the download of the main site and framework small. Images are uploaded from here to a CDN.
 
-* __DataFormsJS__: <a href="https://www.dataformsjs.com/#/en/" target="_blank">https://www.dataformsjs.com/#/en/</a>
-* __CDN__: <a href="https://d2xbd92kui7v97.cloudfront.net/index.html" target="_blank">https://d2xbd92kui7v97.cloudfront.net/index.html</a>
+* __DataFormsJS__: [https://www.dataformsjs.com/#/en/](https://www.dataformsjs.com/#/en/)
+* __CDN (AWS CloudFront)__: [https://d2xbd92kui7v97.cloudfront.net/](https://d2xbd92kui7v97.cloudfront.net/)
+* __S3__: [https://dataformsjs.s3-us-west-1.amazonaws.com/](https://dataformsjs.s3-us-west-1.amazonaws.com/)
 
 ## 🤝 Contributing
 
