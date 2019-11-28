@@ -6,7 +6,7 @@ This repository contains document images and other files for DataFormsJS. Images
 
 * __DataFormsJS__: [https://www.dataformsjs.com/#/en/](https://www.dataformsjs.com/#/en/)
 * __CDN (AWS CloudFront)__: [https://d2xbd92kui7v97.cloudfront.net/](https://d2xbd92kui7v97.cloudfront.net/)
-* __S3__: [https://dataformsjs.s3-us-west-1.amazonaws.com/](https://dataformsjs.s3-us-west-1.amazonaws.com/)
+* __S3__: [http://dataformsjs.s3-website-us-west-1.amazonaws.com/](http://dataformsjs.s3-website-us-west-1.amazonaws.com/)
 
 ## 🤝 Contributing
 
@@ -37,9 +37,9 @@ Until workflow is decided on changes to the (*.sketch) file will not be accepted
 
 In case you are not familiar with Sketch it’s a widely used Mac-only Application for drawing User Interfaces and Web/App Graphics. It’s used for DataFormsJS to draw most of the SVG Graphics. Here are a few screenshots:
 
-![Sketch - Rocketship](https://dataformsjs.s3-us-west-1.amazonaws.com/img/screenshots/Sketch-Computer.png)
+![Sketch - Rocketship](https://raw.githubusercontent.com/dataformsjs/static-files/master/img/screenshots/Sketch-Computer.png)
 
-![Sketch - Icons](https://dataformsjs.s3-us-west-1.amazonaws.com/img/screenshots/Sketch-Icons.png)
+![Sketch - Icons](https://raw.githubusercontent.com/dataformsjs/static-files/master/img/screenshots/Sketch-Icons.png)
 
 ## :memo: License
 
