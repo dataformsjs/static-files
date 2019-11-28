@@ -30,7 +30,7 @@
             data-countries>
 
             <h3 v-if="isLoading" v-cloak class="loading">Loading...</h3>
-            <h3 v-if="hasError" v-cloak class="error"></h3>
+            <h3 v-if="hasError" v-cloak class="error">{{ errorMessage }}</h3>
             <div v-if="isLoaded" v-cloak>
                 <h1>Countries</h1>
                 <ul>
