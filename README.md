@@ -2,11 +2,41 @@
 
 **Thanks for visiting!** 🌠👍
 
-This repository contains document images and other files for DataFormsJS. Images are located here to keep the download of the main site and framework small. Images are uploaded from here to a CDN.
-
 * __DataFormsJS__: [https://www.dataformsjs.com/](https://www.dataformsjs.com/)
 * __CDN (AWS CloudFront)__: [https://d2xbd92kui7v97.cloudfront.net/](https://d2xbd92kui7v97.cloudfront.net/)
 * __S3__: [http://dataformsjs.s3-website-us-west-1.amazonaws.com/](http://dataformsjs.s3-website-us-west-1.amazonaws.com/)
+
+<table>
+  <tbody>
+    <tr>
+      <td>en</td>
+      <td>English</td>
+      <td>This repository contains document images and other files for DataFormsJS. Images are located here to keep the download of the main site and framework small. Images are uploaded from here to a CDN.</td>
+    </tr>
+    <tr>
+      <td>es</td>
+      <td lang="es">Español</td>
+      <td lang="es">Este repositorio contiene imágenes de documentos y otros archivos para DataFormsJS. Las imágenes se encuentran aquí para mantener pequeña la descarga del sitio principal y el marco. Las imágenes se cargan desde aquí a un CDN.</td>
+    </tr>
+    <tr>
+      <td>pt-BR</td>
+      <td lang="pt-BR">Português (do Brasil)</td>
+      <td lang="pt-BR">Este repositório contém imagens de documentos e outros arquivos para DataFormsJS. As imagens estão localizadas aqui para manter pequeno o download do site principal e da estrutura. As imagens são carregadas daqui para uma CDN.</td>
+    </tr>
+    <tr>
+      <td>ja</td>
+      <td lang="ja">日本語</td>
+      <td lang="ja">このリポジトリには、DataFormsJSのドキュメントイメージとその他のファイルが含まれています。 メインサイトとフレームワークのダウンロードを小さく保つために、画像はここにあります。 画像はここからCDNにアップロードされます。</td>
+    </tr>
+    <!--
+    <tr>
+      <td>{iso}</td>
+      <td>{lang}</td>
+      <td>{content}</td>
+    </tr>
+    -->
+  </tbody>
+</table>
 
 ## 🤝 Contributing
 
