@@ -40,7 +40,7 @@ When submitting changes rename and upload image files as a new file name with th
 
 A suffix of [a, b, c, etc] can be added after the date when multiple version of the file are published on the same date. If changes are made on many files in a directory/folder simply upload a new directory [doc/test/v2].
 
-## :rocket: Sketch App Design File
+## :art: Sketch App Design File
 
 Workflow for the Sketch files (*.sketch) is not yet decided on. Changes will likely be published to the same file however git would treat is as binary so a cloud service needs to be setup in the future for design changes. Some possibilities:
 
