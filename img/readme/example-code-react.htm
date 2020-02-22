@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>DataFormsJS Example using React</title>
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <script type="text/babel">
+            function ShowLoading() {
+                return <div className="loading">Loading...</div>;
+            }
+
+            function ShowError(props) {
+                return <div className="error">{props.error}</div>;
+            }
+
+            function ShowCountries(props) {
+                return (
+                    <React.Fragment>
+                        <h1>Countries</h1>
+                        <ul>
+                            {props.data && props.data.countries && props.data.countries.map(country => {
+                                return (
+                                    <li key={country.iso}>{country.country}</li>
+                                )
+                            })}
+                        </ul>
+                    </React.Fragment>
+                )
+            }
+
+            class App extends React.Component {
+                render() {
+                    return (
+                        <ErrorBoundary>
+                            <JsonData
+                                url="https://www.dataformsjs.com/data/geonames/countries"
+                                isLoading={<ShowLoading />}
+                                hasError={<ShowError />}
+                                isLoaded={<ShowCountries />}
+                                loadOnlyOnce={true} />
+                        </ErrorBoundary>
+                    )
+                }
+            }
+
+            ReactDOM.render(
+                <App />,
+                document.getElementById('root')
+            );
+        </script>
+
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/react/es5/DataFormsJS.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/react/jsxLoader.min.js"></script>
+    </body>
+</html>
