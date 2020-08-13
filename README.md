@@ -65,4 +65,6 @@ In case you are not familiar with Sketch it’s a widely used Mac-only Applicati
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-All image and artwork files (*.sketch, *.png, *.ico) are dual licensed under both **MIT License** and <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="font-weight:bold;">Creative Commons Attribution 4.0 International License</a>.
+All image and artwork files (*.sketch, *.png, *.ico) in most directories are dual licensed under both **MIT License** and <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="font-weight:bold;">Creative Commons Attribution 4.0 International License</a>.
+
+Content under `img/awesome-web-react/card-images` are included under fair use and should be considered copyright of the respective owners. They are used on the following site: https://awesome-web-react.js.org/
