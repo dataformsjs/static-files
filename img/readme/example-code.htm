@@ -20,7 +20,7 @@
         </template>
 
         <template id="loading-screen">
-            <h3>Loading...</h3>
+            <h2>Loading...</h2>
         </template>
 
         <script
@@ -33,8 +33,8 @@
             data-lazy-load="jsonData, flags"
             data-countries>
 
-            <h3 v-if="isLoading" class="loading">Loading...</h3>
-            <h3 v-if="hasError" class="error">{{ errorMessage }}</h3>
+            <h2 v-if="isLoading" class="loading">Loading...</h2>
+            <h2 v-if="hasError" class="error">{{ errorMessage }}</h2>
             <div v-if="isLoaded">
                 <h1>Countries</h1>
                 <ul>

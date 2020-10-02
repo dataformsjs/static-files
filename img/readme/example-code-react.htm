@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>DataFormsJS Example using React</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-flag@2.4.0/flag.min.css">
     </head>
     <body>
         <div id="root"></div>
@@ -24,7 +25,10 @@
                         <ul>
                             {props.data && props.data.countries && props.data.countries.map(country => {
                                 return (
-                                    <li key={country.iso}>{country.country}</li>
+                                    <li key={country.iso}>
+                                        <i className={country.iso.toLowerCase() + ' flag'}></i>
+                                        <span>{country.country}</span>
+                                    </li>
                                 )
                             })}
                         </ul>
