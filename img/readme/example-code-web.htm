@@ -17,22 +17,22 @@
         <main id="view"></main>
 
         <!--
-            <url-hash-router> and <url-hash-route> will be
+            <url-router> and <url-route> will be
             used to define #Hash routes.
 
             Additionally <url-router> and <url-route> exist and
             can be used for Web History Routes (pushState)
         -->
-        <url-hash-router view-selector="#view">
+        <url-router view-selector="#view">
             <!-- Home Page -->
-            <url-hash-route path="/">
+            <url-route path="/">
                 <template>
                     <h1>Hello World!</h1>
                 </template>
-            </url-hash-route>
+            </url-route>
 
             <!-- Display a list of Countries from a JSON Service -->
-            <url-hash-route path="/data">
+            <url-route path="/data">
                 <template>
                     <json-data url="https://www.dataformsjs.com/data/geonames/countries">
                         <is-loading>
@@ -50,8 +50,8 @@
                         </is-loaded>
                     </json-data>
                 </template>
-            </url-hash-route>
-        </url-hash-router>
+            </url-route>
+        </url-router>
 
         <!--
             Template for <data-list> using Template literals (Template strings)
@@ -64,7 +64,7 @@
         </template>
 
         <!-- DataFormsJS Web Components -->
-        <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/url-hash-router.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/url-router.min.js"></script>
         <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/json-data.min.js"></script>
         <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/data-list.min.js"></script>
 
