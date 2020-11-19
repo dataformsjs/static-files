@@ -2,9 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DataFormsJS Example using Web Components</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-flag@2.4.0/flag.min.css">
     </head>
     <body>
         <header>
@@ -16,14 +15,14 @@
 
         <main id="view"></main>
 
-        <!--
-            <url-router> and <url-route> will be
-            used to define #Hash routes.
+        <template id="loading-screen">
+            <h2>Loading...</h2>
+        </template>
 
-            Additionally <url-router> and <url-route> exist and
-            can be used for Web History Routes (pushState)
+        <!--
+            <url-router> and <url-route> will be used to define #hash routes
         -->
-        <url-router view-selector="#view">
+        <url-router view-selector="#view" loading-template-selector="#loading-screen">
             <!-- Home Page -->
             <url-route path="/">
                 <template>
@@ -31,8 +30,14 @@
                 </template>
             </url-route>
 
-            <!-- Display a list of Countries from a JSON Service -->
-            <url-route path="/data">
+            <!--
+                Display a list of Countries from a JSON Service. Elements
+                with [data-bind] are populated with data from the Web Service.
+
+                [lazy-load] is used along with `window.lazyLoad` near the bottom
+                of this file to dynamically load scripts only if they will be used.
+            -->
+            <url-route path="/data" lazy-load="json_data, data_list, flags">
                 <template>
                     <json-data url="https://www.dataformsjs.com/data/geonames/countries">
                         <is-loading>
@@ -65,11 +70,13 @@
 
         <!-- DataFormsJS Web Components -->
         <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/url-router.min.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/json-data.min.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/data-list.min.js"></script>
-
-        <!-- Older browsers (IE, Older Mobile Devices, etc) will see a warning -->
-        <script nomodule src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/safari-nomodule.min.js"></script>
-        <script nomodule src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/old-browser-warning.min.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/polyfill.min.js"></script>
+        <script>
+            window.lazyLoad = {
+                json_data: { module: 'https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/json-data.min.js' },
+                data_list: { module: 'https://cdn.jsdelivr.net/npm/dataformsjs@latest/js/web-components/data-list.min.js' },
+                flags: 'https://cdn.jsdelivr.net/npm/semantic-ui-flag@2.4.0/flag.min.css',
+            };
+        </script>
     </body>
 </html>
