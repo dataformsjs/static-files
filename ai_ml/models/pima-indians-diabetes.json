@@ -1,0 +1,42 @@
+{
+    "class": "LogisticRegression",
+    "params": {
+        "C": 100,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 100,
+        "multi_class": "warn",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": null,
+        "solver": "warn",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "classes_": [
+        0,
+        1
+    ],
+    "coef_": [
+        [
+            0.14504393454617648,
+            0.03370681998147281,
+            -0.009167429839356256,
+            0.008791550430986688,
+            -0.001885588029468355,
+            0.09436689396843242,
+            0.9762517865608876,
+            0.013170620205684574
+        ]
+    ],
+    "intercept_": [
+        -8.72369709601287
+    ],
+    "n_iter_": [
+        23
+    ]
+}
